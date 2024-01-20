@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+:root{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    background-color: #0f0f0f;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+
+}
+
+
+.stopwatch-container {
+    text-align: center;
+
+}
+
+.display {
+    font-size: 6em;
+    margin-bottom: 20px;
+    padding: 10px;
+   
+    color: #fff;
+}
+
+
+.footer{
+    padding: 2em;
+    color: #fff;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#startStop {
+    background-color: #ffff;
+    color: #000;
+}
+
+#playIcon {
+    margin-right: 5px;
+}
+#restIcon {
+    margin-right: 5px;
+}
+
+
+
+#reset {
+    background-color: #ffff;
+    color: #000;
+}
